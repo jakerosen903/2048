@@ -47,21 +47,21 @@ class RunGame
       {
          
          String choice = keyboard.next(); 
+         choice = choice.toLowerCase(); 
       
-      
-         if(choice.toLowerCase().equals("d")) 
+         if(choice.equals("d")) 
          {
             direction = 1; 
          }
-         else if(choice.toLowerCase().equals("a")) 
+         else if(choice.equals("a")) 
          {
             direction = 2; 
          }
-         else if(choice.toLowerCase().equals("w")) 
+         else if(choice.equals("w")) 
          {
             direction = 3; 
          }
-         else if(choice.toLowerCase().equals("s") )
+         else if(choice.equals("s") )
          {
             direction = 4; 
          }
